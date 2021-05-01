@@ -57,7 +57,9 @@ gitの特色として、分散型であることが挙げられる。cf. branch
 * `mkdir` ディレクトリの作成
 * `ls` ディレクトリの確認
 * `pwd` 現在のディレクトリの確認
-* 
+* `apt update` パッケージの情報を更新する
+* `apt upgrade` パッケージを更新する
+* `apt install <package>` パッケージをインストールする
 
 ## Markdownとはなにか
 
