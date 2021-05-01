@@ -46,6 +46,15 @@ gitの特色として、分散型であることが挙げられる。cf. branch
   + ブランチ名は`<ユーザー>/<機能>` 
 * ブランチを移動する: `git checkout <ブランチ名>`
 * ブランチを統合する: `git merge <ブランチ名>`
+* GitHubにアップロードする
+  + GitHubにリポジトリを作る。 
+  + アップロード先を登録する:`git remote add origin <url>`
+  + アップロードする:`git push origin <ブランチ名>` 
+* GitHubからダウンロードする
+  + 最初の一回目: `git clone <url>` 
+  + 変更を確認する: `git fetch origin`
+  + 変更を取り込む: `git pull origin <GitHubのブランチ名>`
+
 # 補講
 
 ## CLIとは
